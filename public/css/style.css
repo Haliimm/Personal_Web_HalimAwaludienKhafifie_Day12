@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Sora", sans-serif;
+}
+
+body {
+  background-color: #d3d3d3 !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+figcaption,
+span {
+  color: black !important;
+}
+
+nav {
+  background-color: #e5e0ff !important;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+  color: black !important;
+}
+
+ul.navbar-nav li.nav-item a.nav-link.active {
+  color: black !important;
+}
+
+ul.navbar-nav li.nav-item a.nav-link:hover {
+  color: #fe4e30 !important;
+  transition: 0.1s ease-in-out;
+}
+
+.btn.btn-primary {
+  background-color: #0d192b !important;
+  border: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: #fe4e30 !important;
+  transition: 500ms;
+  text-shadow: 0 0 5px #fe4e30, 0 0 10px #fe4e30, 0 0 15px #fe4e30, 0 0 20px #fe4e30, 0 0 30px #fe4e30, 0 0 40px #fe4e30, 0 0 55px #fe4e30, 0 0 75px #fe4e30 !important;
+}
+
+.btn.btn-download:hover {
+  background-color: #fe4e30 !important;
+  transition: 500ms;
+  text-shadow: 0 0 5px #fe4e30, 0 0 10px #fe4e30, 0 0 15px #fe4e30, 0 0 20px #fe4e30, 0 0 30px #fe4e30, 0 0 40px #fe4e30, 0 0 55px #fe4e30, 0 0 75px #fe4e30 !important;
+}
+
+.btn.btn-primary.active {
+  background-color: #fe4e30 !important;
+  text-shadow: 0 0 5px #fe4e30, 0 0 10px #fe4e30, 0 0 15px #fe4e30, 0 0 20px #fe4e30, 0 0 30px #fe4e30, 0 0 40px #fe4e30, 0 0 55px #fe4e30, 0 0 75px #fe4e30 !important;
+}
+
+.bodycard {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.card {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
+}
+
+.card-title a:hover {
+  color: #ec4d37 !important;
+  transition: 0.1s ease-in-out;
+}
+
+input.form-control,
+textarea.form-control,
+input.form-check-input,
+select.form-select {
+  color: black !important;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #0d192b !important;
+  color: #d3d3d3 !important;
+}
+
+input[type="file"]:hover::-webkit-file-upload-button {
+  background-color: #fe4e30 !important;
+}
